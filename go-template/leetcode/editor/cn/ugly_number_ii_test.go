@@ -9,19 +9,17 @@ package leetcode_solutions
 
 import "testing"
 
-
 // @lc code=start
 func nthUglyNumber(n int) int {
-    
+	return 1
 }
+
 // @lc code=end
 
 func TestUglyNumberIi(t *testing.T) {
 	// your test code here
-	
+
 }
-
-
 
 /*
 // @lcpr case=start
@@ -32,5 +30,4 @@ func TestUglyNumberIi(t *testing.T) {
 // 1\n
 // @lcpr case=end
 
- */
-
+*/
