@@ -17,7 +17,7 @@ import "testing"
  *     Next *ListNode
  * }
  */
-func deleteDuplicates(head *ListNode) *ListNode {
+func deleteDuplicates2(head *ListNode) *ListNode {
 	// 将原链表分解为两条链表
 	// 一条链表存放不重复的节点，另一条链表存放重复的节点
 	// 运用虚拟头结点技巧，题目说了 node.val <= 100，所以用 101 作为虚拟头结点
