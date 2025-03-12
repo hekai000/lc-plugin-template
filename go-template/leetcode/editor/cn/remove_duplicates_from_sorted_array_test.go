@@ -10,7 +10,7 @@ package leetcode_solutions
 import "testing"
 
 // @lc code=start
-func removeDuplicates(nums []int) int {
+func removeDuplicates5(nums []int) int {
 	slow, fast := 0, 0
 	k := len(nums)
 	if k < 2 {
