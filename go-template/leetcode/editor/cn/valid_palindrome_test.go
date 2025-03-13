@@ -14,7 +14,7 @@ import (
 )
 
 // @lc code=start
-func isPalindrome(s string) bool {
+func isPalindrome3(s string) bool {
 	output := cleanString(s)
 
 	left, right := 0, len(output)-1
