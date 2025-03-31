@@ -14,7 +14,7 @@ type NumArray struct {
 	PreSum []int
 }
 
-func Constructor(nums []int) NumArray {
+func Constructor2(nums []int) NumArray {
 	preSum := make([]int, len(nums)+1)
 	for i := 1; i < len(preSum); i++ {
 		preSum[i] = preSum[i-1] + nums[i-1]
@@ -54,9 +54,10 @@ func (this *NumArray) SumRange(left int, right int) int {
 
 func TestRangeSumQueryImmutable(t *testing.T) {
 	// your test code here
-	b := []int{-2, 0, 3, -5, 2, -1}
-	c := Constructor(b)
-	c.SumRange(0, 2)
+	// b := []int{-2, 0, 3, -5, 2, -1}
+
+	// c := Constructor(b)
+	// c.SumRange(0, 2)
 
 }
 
