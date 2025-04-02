@@ -10,6 +10,7 @@ package leetcode_solutions
 import "testing"
 
 // @lc code=start
+<<<<<<< HEAD
 
 // 差分数组工具类
 type Difference struct {
@@ -58,12 +59,29 @@ func corpFlightBookings(bookings [][]int, n int) []int {
 		df.Increment(i, j, val)
 	}
 	return df.Result()
+=======
+func corpFlightBookings(bookings [][]int, n int) []int {
+	res := make([]int, n+1)
+
+	for _, v := range bookings {
+		for j := v[0]; j <= v[1]; j++ {
+			res[j] += v[2]
+		}
+	}
+	return res[1:]
+
+>>>>>>> 801e320f71632f83aadeb4f4703e3f79bcd61e82
 }
 
 // @lc code=end
 
 func TestCorporateFlightBookings(t *testing.T) {
 	// your test code here
+<<<<<<< HEAD
+=======
+	a := [][]int{{1, 2, 10}, {2, 3, 20}, {2, 5, 25}}
+	corpFlightBookings(a, 5)
+>>>>>>> 801e320f71632f83aadeb4f4703e3f79bcd61e82
 
 }
 
