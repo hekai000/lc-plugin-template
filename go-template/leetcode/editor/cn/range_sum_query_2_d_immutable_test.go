@@ -14,7 +14,7 @@ type NumMatrix struct {
 	preSumMatrix [][]int
 }
 
-func Constructor(matrix [][]int) NumMatrix {
+func Constructor21(matrix [][]int) NumMatrix {
 	m, n := len(matrix), len(matrix[0])
 	preSumM := make([][]int, m+1)
 	for i, _ := range preSumM {
