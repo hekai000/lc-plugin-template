@@ -17,7 +17,7 @@ type StockSpanner struct {
 	stk [][2]int
 }
 
-func Constructor() StockSpanner {
+func Constructorpp() StockSpanner {
 	return StockSpanner{stk: make([][2]int, 0)}
 }
 
