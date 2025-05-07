@@ -41,7 +41,8 @@ func findUnsortedSubarray(nums []int) int {
 
 func TestShortestUnsortedContinuousSubarray(t *testing.T) {
 	// your test code here
-
+	nums := []int{1, 3, 2, 2, 2}
+	findUnsortedSubarray(nums)
 }
 
 /*
