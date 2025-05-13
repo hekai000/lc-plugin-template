@@ -18,7 +18,7 @@ type FrontMiddleBackQueue struct {
 	right *list.List
 }
 
-func Constructor() FrontMiddleBackQueue {
+func ConstructorCC() FrontMiddleBackQueue {
 	return FrontMiddleBackQueue{
 		left:  list.New(),
 		right: list.New(),
