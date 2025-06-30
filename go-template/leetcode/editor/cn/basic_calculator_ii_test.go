@@ -10,7 +10,7 @@ package leetcode_solutions
 import "testing"
 
 // @lc code=start
-func calculate(s string) int {
+func calculate22(s string) int {
 	// key 是左括号的索引，value 是对应的右括号的索引
 	rightIndex := make(map[int]int)
 	// 利用栈结构来找到对应的括号
@@ -24,11 +24,11 @@ func calculate(s string) int {
 			rightIndex[pop] = i
 		}
 	}
-	return _calculate(s, 0, len(s)-1, rightIndex)
+	return _calculate22(s, 0, len(s)-1, rightIndex)
 }
 
 // 定义：返回 s[start..end] 内的表达式的计算结果
-func _calculate(s string, start int, end int, rightIndex map[int]int) int {
+func _calculate22(s string, start int, end int, rightIndex map[int]int) int {
 	// 需要把字符串转成双端队列方便操作
 	stk := []int{}
 	// 记录算式中的数字

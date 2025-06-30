@@ -24,7 +24,7 @@ type pair struct {
 	value int
 }
 
-func Constructor(capacity int) LRUCache {
+func Constructor33(capacity int) LRUCache {
 	return LRUCache{
 		capacity: capacity,
 		list:     list.New(),

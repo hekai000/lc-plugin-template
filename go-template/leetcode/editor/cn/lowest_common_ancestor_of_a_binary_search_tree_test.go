@@ -19,7 +19,7 @@ import "testing"
  * }
  */
 
-func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+func lowestCommonAncestor22(root, p, q *TreeNode) *TreeNode {
 	lca := findlca(root, p, q)
 	return lca
 }

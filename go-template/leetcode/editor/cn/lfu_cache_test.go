@@ -23,7 +23,7 @@ type LFUCache struct {
 	size     int
 }
 
-func Constructor(capacity int) LFUCache {
+func Constructor22(capacity int) LFUCache {
 	return LFUCache{
 		capacity: capacity,
 		kvtable:  make(map[int]int),

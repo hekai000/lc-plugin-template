@@ -10,7 +10,7 @@ package leetcode_solutions
 import "testing"
 
 // @lc code=start
-func isValid(s string) bool {
+func isValidcc(s string) bool {
 	stack := []string{}
 	for _, v := range s {
 		if string(v) == "(" || string(v) == "[" || string(v) == "{" {

@@ -9,19 +9,17 @@ package leetcode_solutions
 
 import "testing"
 
-
 // @lc code=start
 func findLongestChain(pairs [][]int) int {
-    
+	return 0
 }
+
 // @lc code=end
 
 func TestMaximumLengthOfPairChain(t *testing.T) {
 	// your test code here
-	
+
 }
-
-
 
 /*
 // @lcpr case=start
@@ -32,5 +30,4 @@ func TestMaximumLengthOfPairChain(t *testing.T) {
 // [[1,2],[7,8],[4,5]]\n
 // @lcpr case=end
 
- */
-
+*/
