@@ -17,7 +17,7 @@ import "testing"
  *     Next *ListNode
  * }
  */
-func partition(head *ListNode, x int) *ListNode {
+func partition11(head *ListNode, x int) *ListNode {
 	dummyNode1 := &ListNode{} //little
 	dummyNode2 := &ListNode{} //big
 	cur1 := dummyNode1

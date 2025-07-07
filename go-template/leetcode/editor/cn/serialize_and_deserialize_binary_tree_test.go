@@ -163,7 +163,7 @@ type Codec struct {
 	NULL string
 }
 
-func Constructor() Codec {
+func Constructor00() Codec {
 	return Codec{
 		SEP:  ",",
 		NULL: "#",
@@ -202,7 +202,7 @@ func (this *Codec) serialize(root *TreeNode) string {
 }
 
 // Deserializes your encoded data to tree.
-func (this *Codec) deserialize(data string) *TreeNode {
+func (this *Codec) deserialize2(data string) *TreeNode {
 	if len(data) == 0 {
 		return nil
 	}
@@ -247,8 +247,8 @@ func (this *Codec) deserialize(data string) *TreeNode {
 func TestSerializeAndDeserializeBinaryTree(t *testing.T) {
 	// your test code here
 	data := "1,2,3,#,4,#,#,#,#"
-	ser := Constructor()
-	ser.deserialize(data)
+	ser := Constructor00()
+	ser.deserialize2(data)
 }
 
 /*
